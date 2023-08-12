@@ -1,0 +1,25 @@
+
+.login {
+    min-width: 400px;
+    width: calc(40% - 7em);
+    margin: 5em auto;
+    padding: 1.4rem 1rem;
+    text-align: center;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title {
+    font-size: 3rem;
+    font-family: var(--title);
+    color: var(--dark2);
+}
+
+.form-btn {
+    background-color: var(--dark2);
+    color: var(--light1);
+    margin: 20px auto;
+}
